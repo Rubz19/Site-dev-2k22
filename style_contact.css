@@ -1,0 +1,34 @@
+body {
+    background-color: black;
+}
+
+header {
+
+}
+
+.header {
+    background-color: white;
+}
+.logo {
+    max-width: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.liste_menu{
+    text-align: center;
+}
+
+.liste_menu .page_menu {
+    display: inline;
+}
+
+.page_menu {
+    margin: 5%;
+}
+
+.menu {
+    background-color: red;
+    padding: 5px;
+}

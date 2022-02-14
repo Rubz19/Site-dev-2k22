@@ -47,5 +47,5 @@ H1{
 }
 
 #droite {
-    margin-right: 50%;
+    float: right;
 }

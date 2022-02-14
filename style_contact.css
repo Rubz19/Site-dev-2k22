@@ -36,3 +36,16 @@ header {
 H1{
     text-align: center;
 }
+#container {
+    max-with:960px;
+    margin:auto;
+}
+
+#gauche  {
+    float:left;
+    width:240px;
+}
+
+#droite {
+    margin-left:245px;
+}

@@ -43,9 +43,9 @@ H1{
 
 #gauche  {
     float:left;
-    width:240px;
+    width:50%
 }
 
 #droite {
-    float :right;
+    margin-left: 50%;
 }

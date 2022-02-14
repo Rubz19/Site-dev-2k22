@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: white;
 }
 
 header {
@@ -35,4 +35,5 @@ header {
 
 H1{
     color : white;
+    text-align: center;
 }

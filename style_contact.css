@@ -1,23 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+}
+
+:root{
+    font-size: 0.625rem;
+}
+
 body {
     background-color: white;
     font-family: 'Poppins', sans-serif;
 }
 
 header {
-    background-color: #342E37;
+    background-color: #6d96ba;
     padding: 10px;
 }
 
 .footer {
     background-color: #342E37;
     padding: 25px;
-}
-
-/* Personnaliser la baseline dans le menu */
-.baseline {
-    font-style: italic;
-    font-size: 15px;
 }
 
 /* Personnaliser le contenu du footer */
@@ -28,34 +31,30 @@ header {
 
 /* Personnaliser les liens du menu */
 #bouton_menu {
-    color: #342E37;
+    color: white;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 1.9rem;
 }
 
 #bouton_menu:hover {
-    color: white;
-}
-
-.logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    color: white;
+    color: #342E37;
 }
 
 /* Personnaliser la liste du menu */
 .liste_menu{
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
     text-align: center;
 }
 
 .liste_menu .page_menu {
-    display: inline;
+    align-items: center;
 }
 
 .page_menu {
+    display: inline;
     margin: 5%;
     color: #342E37;
 }
@@ -65,13 +64,33 @@ a {
     text-decoration: none;
 }
 
-.menu {
-    background-color: #6d96ba;
-    padding: 5px;
+.imglogo {
+    text-align: center;
+    max-width: 70%;
+    max-height: 70%;
 }
 
-H1{
+.menu {
+    display: flex;
+    justify-content: space-between;
+    max-height: 120px;
+}
+
+.menu1 {
+    display: flex;
+    max-width: 40%;
+    align-items: center;
+}
+
+.menu2 {
+    display: flex;
+    max-width: 60%;
+    align-items: center;
+}
+
+h1{
     text-align: center;
+    font-size: 34px;
 }
 
 /* pour sélectionner les input de type texte, textarea et select*/

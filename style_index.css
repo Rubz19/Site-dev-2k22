@@ -1,15 +1,28 @@
 body {
-    background-color: #e2dbbe;
+    background-color: white;
     font-family: 'Poppins', sans-serif;
+}
+
+.footer {
+    background-color: #342E37;
+    padding: 25px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-
+.baseline {
+    font-style: italic;
+    font-size: 15px;
+}
 
 header {
     background-color: #342E37;
     padding: 10px;
+}
+
+#mentions {
+    text-align: center;
+    color: white;
 }
 
 #bouton_menu {
@@ -74,6 +87,10 @@ display: flex;
       min-height: 300px;
       }
 
+#fond_bleu {
+    background-color: rgba(109, 150, 186, 0.1);
+}
+
 .bloc_moitie > div {
       width: 50%;
       min-height: 500px;
@@ -87,8 +104,9 @@ display: flex;
       display: flex;
       flex-wrap: wrap;
       align-content: space-between ;
-      min-height: 300px;
-      background-color: #342E37;
+      min-height: 200px;
+      margin-top: 10%;
+      margin-bottom: 10%;
       }
 
 .bloc_tiers > div {
@@ -117,30 +135,26 @@ display: flex;
 
 #vertical_centre {
   height: 10em;
-  line-height: 10em;
+  line-height: 10px;
   white-space: nowrap;
 }
 
 #image_groupe {
-    background-image: url(images/GROUPE_ENTIER_2.jpg);
+    /*background-image: url(images/GROUPE_ENTIER_2.jpg);*/
     background-color: transparent;
     height: 500px; /* You must set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
-    color: white;
 }
 
 background-image {
         filter: blur(4px);
 }
 
-#blanc {
-    color: white;
-}
-
 #icone {
     max-height: 50px;
+    margin: 10px;
 }
 
 #icone:hover {

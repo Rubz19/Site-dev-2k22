@@ -1,34 +1,96 @@
-body {
-    background-color: black;
+*{
+    margin: 0;
 }
+
+:root{
+    font-size: 0.625rem;
+}
+
+
+body {
+    background-color: #e2dbbe;
+    font-family: 'Poppins', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
 
 header {
-
+    background-color: #6d96ba;
 }
 
-.header {
-    background-color: white;
+#bouton_menu {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.9rem;
 }
-.logo {
-    max-width: 10%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+
+#bouton_menu:hover {
+    color: #342E37;
 }
 
 .liste_menu{
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
     text-align: center;
-}
-
-.liste_menu .page_menu {
-    display: inline;
+    align-items: center;
 }
 
 .page_menu {
+    display: inline;
     margin: 5%;
+    color: #342E37;
 }
 
 .menu {
-    background-color: red;
-    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    max-height: 120px;
+}
+
+.menu1 {
+    display: flex;
+    max-width: 40%;
+    align-items: center;
+}
+
+.menu2 {
+    display: flex;
+    max-width: 60%;
+    align-items: center;
+}
+
+a {
+    color: #342E37;
+    text-decoration: none;
+}
+
+.imglogo {
+    text-align: center;
+    max-width: 70%;
+    max-height: 70%;
+}
+
+.Bloc1 {
+    background: url("images/SECTION_RYTHMIQUE_2.JPG") no-repeat center;
+    background-size: cover;
+    min-height: 700px;
+    filter: opacity(80%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 60%;
+    padding-top: 5%;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+.soustitre{
+    font-size: 1.5rem;
+    text-align: center;
 }

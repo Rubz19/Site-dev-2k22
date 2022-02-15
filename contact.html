@@ -29,7 +29,7 @@
                 <label for="fname">Prénom</label>
               </div>
               <div class="col-75">
-                <input type="text" id="fname" name="firstname" placeholder="Votre Prénom">
+                <input type="text" id="fname" name="firstname" placeholder="Votre Prénom" required="required">
               </div>
             </div>
             <div class="row">
@@ -37,7 +37,7 @@
                 <label for="lname">Nom</label>
               </div>
               <div class="col-75">
-                <input type="text" id="lname" name="lastname" placeholder="Votre nom">
+                <input type="text" id="lname" name="lastname" placeholder="Votre nom" required="required">
               </div>
             </div>
             <div class="row">
@@ -45,8 +45,8 @@
                 <label for="subject">Sujet</label>
               </div>
               <div class="col-75">
-                <select id="subjet" name="subject">
-                  <option value="first">Enregistrer un album</option>
+                <select id="subjet" name="subject" required="required">
+                  <option value="first" selected>Enregistrer un album</option>
                   <option value="second">Obtenir un devis</option>
                   <option value="third">Obtenir un rendez-vous</option>
                   <option value="fourth">Poser une question</option>
@@ -58,7 +58,7 @@
                 <label for="message">Message</label>
               </div>
               <div class="col-75">
-                <textarea id="message" name="message" placeholder="Écrivez votre message" style="height:200px"></textarea>
+                <textarea id="message" name="message" placeholder="Écrivez votre message" style="height:200px" required="required"></textarea>
               </div>
             </div>
             <div class="row">

@@ -1,19 +1,24 @@
 body {
-    background-color: white;
+    background-color: #e2dbbe;
 }
 
 header {
-
+    background-color: #342E37;
 }
 
 .header {
-    background-color: white;
 }
+
+#rouge {
+    background-color: #C17767;
+}
+
 .logo {
-    max-width: 10%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+    color: white;
 }
 
 .liste_menu{
@@ -29,7 +34,7 @@ header {
 }
 
 .menu {
-    background-color: red;
+    background-color: #6d96ba;
     padding: 5px;
 }
 
@@ -119,7 +124,6 @@ input[type=submit]:hover {
       flex-wrap: wrap;
       align-content: space-between;
       min-height: 200px;
-      background-color: #1c87c9;
       }
 
 /* Personnaliser l'intérieur d'un div */     
@@ -128,16 +132,39 @@ input[type=submit]:hover {
       min-height: 300px;
       padding: 10px 0;
       margin: 0px;
-      background-color: lightgrey;
       text-align: center;
       font-size: 35px;
       font: center;
       }
 
+#bloc_img{
+    background-color: #6d96ba;
+}
+
+#bloc_txt{
+    background-color: #C17767;
+}
+
 #groupe1{
     max-height: 400px;
 }
+.bloc_entier {
+      width: 100%;
+      padding: 10px 0;
+      margin: 0px;
+      text-align: center;
+      font: center;
+      }
+
 p {
     font-size: 25px;
     text-align : left;
+    padding-left: 10%;
+}
+
+@media screen and (max-width: 600px) {
+  #bloc_img, #bloc_txt {
+    width: 100%;
+    margin-top: 0;
+  }
 }

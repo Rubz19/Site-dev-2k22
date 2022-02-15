@@ -14,16 +14,14 @@
         </div>
         <div class="menu">
             <ul class="liste_menu">
-                <li class="page_menu"><a href="blog.html">Blog</a></li>
-                <li class="page_menu"><a href="outils_et_ressources.html">Outils et ressources</a></li>
-                <li class="page_menu"><a href="contact.html">Contact</a></li>
-                <li class="page_menu"><a href="https://www.royz.fr">ROYZ</a></li>
+                <li class="page_menu"><a id="bouton_menu" href="blog.html">Blog</a></li>
+                <li class="page_menu"><a id="bouton_menu" href="outils_et_ressources.html">Outils et ressources</a></li>
+                <li class="page_menu"><a id="bouton_menu" href="contact.html">Contact</a></li>
+                <li class="page_menu"><a id="bouton_menu" href="https://www.royz.fr">ROYZ</a></li>
             </ul>
         </div>
     </header>
-    <div class="bloc_entier" id="rouge">
             <h1>Contactez-nous !</h1>
-    </div>
             <br/>
 
         <div class="flex-container">
@@ -32,7 +30,9 @@
             </div>
             <!--ajouter un div vide entre les 2 autres-->
             <div id="bloc_txt">
-                <p>Contactez-nous pour en savoir plus sur la réalisation d'un album, les détails techniques ou pour tout autre question.</p></div>
+                <p>Contactez-nous pour en savoir plus sur la réalisation d'un album, les détails techniques ou pour toute autre question.</p>
+                <img src="images/lecteur-cd.png" id="picto-cd" alt="Picto CD">
+            </div>
         </div>
         <div class="container_form">
           <form action="action_page.php">
@@ -70,7 +70,7 @@
                 <label for="message">Message</label>
               </div>
               <div class="col-75">
-                <textarea id="message" name="message" placeholder="Écrivez votre message" style="height:200px" required="required"></textarea>
+                <textarea id="message" name="message" placeholder="Écrivez votre message" required="required"></textarea>
               </div>
             </div>
             <div class="row">

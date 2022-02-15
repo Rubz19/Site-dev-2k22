@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body {
     background-color: white;
     font-family: 'Poppins', sans-serif;
 }
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 header {
     background-color: #342E37;
@@ -14,11 +14,13 @@ header {
     padding: 25px;
 }
 
+/* Personnaliser la baseline dans le menu */
 .baseline {
     font-style: italic;
     font-size: 15px;
 }
 
+/* Personnaliser le contenu du footer */
 #mentions {
     text-align: center;
     color: white;
@@ -33,13 +35,6 @@ header {
 
 #bouton_menu:hover {
     color: white;
-}
-
-.header {
-}
-
-#rouge {
-    background-color: #C17767;
 }
 
 .logo {
@@ -91,6 +86,7 @@ input[type=text], select, textarea{
 label {
   padding: 12px 12px 12px 0;
   display: inline-block;
+  color: white;
 }
 
 /* Personnaliser le bouton envoyer */
@@ -132,10 +128,6 @@ input[type=submit]:hover {
   margin-top: 6px;
 }
 
-label{
-    color : white;
-}
-
 /* Sélectionner la colonne des inputs */
 .col-75 {
   float: left;
@@ -148,14 +140,6 @@ label{
   content: "";
   display: table;
   clear: both;
-}
-
-/* Rendre responsive : à 600px, les titres passent au dessus des inputs */
-@media screen and (max-width: 600px) {
-  .col-25, .col-75, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
 }
 
 /* Personnaliser les blocs de div */ 
@@ -177,37 +161,33 @@ label{
       font: center;
       }
 
+/* Changer le fond du div de gauche */
 #bloc_img{
     /*background-color: #6d96ba;*/
     background-image: url('images/GROUPE_ENTIER_1.jpg');
 }
 
+/* Changer la couleur de fond du div de droite*/
 #bloc_txt{
     background-color: #342E37;
 }
 
+/* changer la taille et la position des pictos */
 #picto-1, #picto-2, #picto-3{
     max-height: 200px;
     padding-top: 10%;
 }
 
+/* Personnaliser bloc message dans le form */
 textarea {
     height: 100px;
     font-family: 'Poppins', sans-serif;
 }
 
-
 #groupe1{
     max-height: 400px;
     border-radius: 10px;
 }
-.bloc_entier {
-      width: 100%;
-      padding: 10px 0;
-      margin: 0px;
-      text-align: center;
-      font: center;
-      }
 
 p {
     font-size: 20px;
@@ -215,10 +195,37 @@ p {
     padding-left: 10%;
     color : #FAFFFD;
 }
-
+/* Rendre responsive : à 600px
+les titres passent au dessus des inputs */
 @media screen and (max-width: 600px) {
-  #bloc_img, #bloc_txt {
+  .col-25, .col-75, input[type=submit] {
     width: 100%;
+    margin-top: 0;
+  }
+}
+
+/* Rendre responsive : à 600px
+réduire la largeur du div */
+@media screen and (max-width: 600px) {
+  #bloc_img {
+    width: 100%;
+  }
+}
+
+/* Rendre responsive : à 600px
+réduire la largeur du div et sa hauteur */
+@media screen and (max-width: 600px) {
+  #bloc_txt {
+    width: 100%;
+    max-height: 20px;
+  }
+}
+
+/* Rendre responsive : à 600px
+ réduire la taille des pictos */
+@media screen and (max-width: 600px) {
+  #picto-1, #picto-2, #picto-3{
+    max-height: 20%;
     margin-top: 0;
   }
 }

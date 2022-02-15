@@ -48,5 +48,5 @@ H1{
 
 #droite {
     float: right;
-    clear : right;
+    clear : both;
 }

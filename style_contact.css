@@ -9,6 +9,21 @@ header {
     padding: 10px;
 }
 
+.footer {
+    background-color: #342E37;
+    padding: 25px;
+}
+
+.baseline {
+    font-style: italic;
+    font-size: 15px;
+}
+
+#mentions {
+    text-align: center;
+    color: white;
+}
+
 #bouton_menu {
     color: #342E37;
     text-decoration: none;
@@ -107,6 +122,7 @@ input[type=submit]:hover {
   margin-left : 15%;
   margin-right : 15%;
   margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 /* Sélectionner la colonne des titres' */

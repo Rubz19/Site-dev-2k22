@@ -170,6 +170,11 @@ label{
     background-color: #342E37;
 }
 
+#picto-1, #picto-2, #picto-3{
+    max-height: 200px;
+    padding-top: 10%;
+}
+
 textarea {
     height: 100px;
     font-family: 'Poppins', sans-serif;

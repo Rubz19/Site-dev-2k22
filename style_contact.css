@@ -26,6 +26,7 @@ header {
     color: white;
 }
 
+/* Personnaliser les liens du menu */
 #bouton_menu {
     color: #342E37;
     text-decoration: none;
@@ -45,6 +46,7 @@ header {
     color: white;
 }
 
+/* Personnaliser la liste du menu */
 .liste_menu{
     text-align: center;
 }
@@ -172,10 +174,24 @@ input[type=submit]:hover {
     background-color: #342E37;
 }
 
-/* changer la taille et la position des pictos */
+/* changer la taille et la position des pictos du haut */
 #picto-1, #picto-2, #picto-3{
     max-height: 200px;
     padding-top: 10%;
+}
+
+/* changer la taille et la position des pictos du bas */
+#picto-tel, #picto-mail{
+    max-height: 50px;
+    padding-top: 10%;
+}
+
+#bloc_txt2{
+    background-color: #342E37;
+}
+
+.contact {
+    text-align: center;
 }
 
 /* Personnaliser bloc message dans le form */

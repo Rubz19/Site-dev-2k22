@@ -36,22 +36,8 @@ header {
 H1{
     text-align: center;
 }
-#container {
-    max-with:960px;
-    margin:auto;
-}
 
-#gauche  {
-    float:left;
-    width:50%
-}
-
-#droite {
-    float: right;
-    clear : both;
-}
-
-/* Style inputs, select elements and textareas */
+/* pour sélectionner les input de type texte, textarea et select*/
 input[type=text], select, textarea{
   width: 100%;
   padding: 12px;
@@ -61,15 +47,15 @@ input[type=text], select, textarea{
   resize: vertical;
 }
 
-/* Style the label to display next to the inputs */
+/* pour personnaliser les noms des input*/
 label {
   padding: 12px 12px 12px 0;
   display: inline-block;
 }
 
-/* Style the submit button */
+/* Personnaliser le bouton envoyer */
 input[type=submit] {
-  background-color: #04AA6D;
+  background-color: #e9b44b;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -78,35 +64,45 @@ input[type=submit] {
   float: right;
 }
 
-/* Style the container */
+input[type=submit]:hover {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+/* Personnaliser le container */
 .container {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
 }
 
-/* Floating column for labels: 25% width */
+/* Sélectionner la colonne des titres' */
 .col-25 {
   float: left;
   width: 25%;
   margin-top: 6px;
 }
 
-/* Floating column for inputs: 75% width */
+/* Sélectionner la colonne des inputs */
 .col-75 {
   float: left;
   width: 75%;
   margin-top: 6px;
 }
 
-/* Clear floats after the columns */
+/* Aligner les colonnes */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+/* Rendre responsive : à 600px, les titres passent au dessus des inputs */
 @media screen and (max-width: 600px) {
   .col-25, .col-75, input[type=submit] {
     width: 100%;

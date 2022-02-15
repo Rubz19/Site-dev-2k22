@@ -4,6 +4,18 @@ body {
 
 header {
     background-color: #342E37;
+    padding: 10px;
+}
+
+#bouton_menu {
+    color: #342E37;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+#bouton_menu:hover {
+    color: white;
 }
 
 .header {
@@ -33,11 +45,17 @@ header {
 
 .page_menu {
     margin: 5%;
+    color: #342E37;
 }
 
 .menu {
     background-color: #6d96ba;
     padding: 5px;
+}
+
+a {
+    color: #342E37;
+    text-decoration: none;
 }
 
 .container {
@@ -60,6 +78,23 @@ display: flex;
       font: center;
       }
 
+.bloc_tiers {
+      display: flex;
+      flex-wrap: wrap;
+      align-content: space-between ;
+      min-height: 300px;
+      background-color: #342E37;
+      }
+
+.bloc_tiers > div {
+      width: 33.33%;
+      min-height: 200px;
+      padding: 0px 0;
+      margin: 0px;
+      text-align: center;
+      font: center;
+  }
+
 .bloc_entier {
       width: 100%;
       padding: 10px 0;
@@ -76,9 +111,33 @@ display: flex;
 }
 
 #vertical_centre {
-  height: 10em; /* hauteur du parent */
-  line-height: 10em; /* hauteur de ligne (identique) */
-  white-space: nowrap; /* interdiction de passer à la ligne */
+  height: 10em;
+  line-height: 10em;
+  white-space: nowrap;
 }
 
-.row
+#image_groupe {
+    background-image: url(images/GROUPE_ENTIER_2.jpg);
+    background-color: transparent;
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    color: white;
+}
+
+background-image {
+        filter: blur(4px);
+}
+
+#blanc {
+    color: white;
+}
+
+#icone {
+    max-height: 50px;
+}
+
+#icone:hover {
+    max-height: 100px;
+}

@@ -215,7 +215,6 @@ les titres passent au dessus des inputs */
 @media screen and (max-width: 600px) {
   .col-25, .col-75, input[type=submit] {
     width: 100%;
-    margin-top: 0;
   }
 }
 
@@ -230,9 +229,8 @@ réduire la largeur du div */
 /* Rendre responsive : à 600px
 réduire la largeur du div et sa hauteur */
 @media screen and (max-width: 600px) {
-  #bloc_txt {
+  #bloc_txt, #bloc_txt2 {
     width: 100%;
-    max-height: 20px;
   }
 }
 
@@ -240,7 +238,6 @@ réduire la largeur du div et sa hauteur */
  réduire la taille des pictos */
 @media screen and (max-width: 600px) {
   #picto-1, #picto-2, #picto-3{
-    max-height: 20%;
-    margin-top: 0;
+    width: 20%;
   }
 }

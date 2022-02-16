@@ -21,6 +21,17 @@ header {
     padding: 10px;
 }
 
+.footer {
+    background-color: #342E37;
+    padding: 25px;
+}
+
+/* Personnaliser le contenu du footer */
+#mentions {
+    text-align: center;
+    color: white;
+}
+
 .ici{
     color: #e9b44c;
     text-decoration: none;

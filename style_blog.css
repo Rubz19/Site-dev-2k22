@@ -18,6 +18,7 @@ body {
 
 header {
     background-color: #6d96ba;
+    padding: 10px;
 }
 
 .ici{
@@ -68,7 +69,7 @@ header {
     display: flex;
     max-width: 60%;
     align-items: center;
-    margin-right: 5px;
+    margin-right: 5%;
 }
 
 a {

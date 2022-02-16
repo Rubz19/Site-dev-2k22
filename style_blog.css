@@ -8,7 +8,7 @@
 
 
 body {
-    background-color: #e2dbbe;
+    background-color: #F9F8EE;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -174,8 +174,311 @@ button:hover{
 }
 
 .demiBloc2{
-padding: 2%;
-display: flex;
-justify-content: space-around;
-text-decoration: underline;
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: underline;
+    margin-bottom: -3%;
+}
+
+.Bloc3{
+    margin-top: 1%;
+}
+
+h4{
+    padding-top: 3%;
+    padding-left: 10%;
+    font-size: 2rem;
+}
+
+.catégorie{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2%;
+}
+
+h5{
+    font-size: 1.8rem;
+    background-color: white;
+    filter: opacity(80%);
+    padding-left: 5%;
+    padding-top: 3%;
+    padding-right: 5%;
+}
+
+h5:hover{
+    text-decoration: underline;
+}
+
+.TextBloc3{
+    font-size: 1.4rem;
+    color: black;
+    background-color: white;
+    filter: opacity(80%);
+    padding: 5%;
+}
+
+.découvrir{
+    padding-bottom: 10%;
+}
+
+.Bloc3div1{
+    background: url("images/kickstarter2.png") no-repeat center;
+    background-size: cover;
+    filter: opacity(80%);
+    border: 0.2rem solid #342E37;
+    width: 20%;
+    height: 25rem;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.Bloc3div1:hover{
+    background: url("images/kickstarter2.png") no-repeat center;
+    background-size: 110%;
+    filter: opacity(100%);
+    border: 0.2rem solid #342E37;
+    width: 20%;
+    height: 25rem;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.Bloc3div2{
+    background: url("images/mur_musique.jpg") no-repeat center;
+    background-size: cover;
+    filter: opacity(80%);
+    border: 0.2rem solid #342E37;
+    width: 20%;
+    height: 25rem;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.Bloc3div2:hover{
+    background: url("images/mur_musique.jpg") no-repeat center;
+    background-size: 150%;
+    filter: opacity(100%);
+    border: 0.2rem solid #342E37;
+    width: 20%;
+    height: 25rem;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.Bloc3div3{
+    background: url("images/Fusée.png") no-repeat center;
+    background-size: cover;
+    filter: opacity(80%);
+    border: 0.2rem solid #342E37;
+    width: 20%;
+    height: 25rem;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.Bloc3div3:hover{
+    background: url("images/Fusée.png") no-repeat center;
+    background-size: 150%;
+    filter: opacity(100%);
+    border: 0.2rem solid #342E37;
+    width: 20%;
+    height: 25rem;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.Bloc3div4{
+    background: url("images/plus.png") no-repeat center;
+    background-size: cover;
+    filter: opacity(80%);
+    border: 0.2rem solid #342E37;
+    width: 20%;
+    height: 25rem;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.Bloc3div4:hover{
+    background: url("images/plus.png") no-repeat center;
+    background-size: 110%;
+    filter: opacity(100%);
+    border: 0.2rem solid #342E37;
+    width: 20%;
+    height: 25rem;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.Bloc3div5{
+    background: url("images/GROUPE_ENTIER_1.JPG") no-repeat center;
+    background-size: cover;
+    filter: opacity(80%);
+    border: 0.2rem solid #342E37;
+    width: 20%;
+    height: 25rem;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.Bloc3div5:hover{
+    background: url("images/GROUPE_ENTIER_1.JPG") no-repeat center;
+    background-size: 110%;
+    filter: opacity(100%);
+    border: 0.2rem solid #342E37;
+    width: 20%;
+    height: 25rem;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.Bloc3div6{
+    background: url("images/foule.jpg") no-repeat center;
+    background-size: cover;
+    filter: opacity(80%);
+    border: 0.2rem solid #342E37;
+    width: 20%;
+    height: 25rem;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.Bloc3div6:hover{
+    background: url("images/foule.jpg") no-repeat center;
+    background-size: 150%;
+    filter: opacity(100%);
+    border: 0.2rem solid #342E37;
+    width: 20%;
+    height: 25rem;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.Bloc3div7{
+    background: url("images/SECTION_RYTHMIQUE_1.JPG") no-repeat center;
+    background-size: cover;
+    filter: opacity(80%);
+    border: 0.2rem solid #342E37;
+    width: 20%;
+    height: 25rem;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.Bloc3div7:hover{
+    background: url("images/SECTION_RYTHMIQUE_1.JPG") no-repeat center;
+    background-size: 110%;
+    filter: opacity(100%);
+    border: 0.2rem solid #342E37;
+    width: 20%;
+    height: 25rem;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.Bloc3div9{
+    background: url("images/GROUPE_ENTIER_2.JPG") no-repeat center;
+    background-size: cover;
+    filter: opacity(80%);
+    border: 0.2rem solid #342E37;
+    width: 20%;
+    height: 25rem;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.Bloc3div9:hover{
+    background: url("images/GROUPE_ENTIER_2.JPG") no-repeat center;
+    background-size: 110%;
+    filter: opacity(100%);
+    border: 0.2rem solid #342E37;
+    width: 20%;
+    height: 25rem;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.Bloc3div10{
+    background: url("images/SECTIONCUIVRE.jpg") no-repeat center;
+    background-size: cover;
+    filter: opacity(80%);
+    border: 0.2rem solid #342E37;
+    width: 20%;
+    height: 25rem;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.Bloc3div10:hover{
+    background: url("images/SECTIONCUIVRE.jpg") no-repeat center;
+    background-size: 110%;
+    filter: opacity(100%);
+    border: 0.2rem solid #342E37;
+    width: 20%;
+    height: 25rem;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.Bloc3div11{
+    background: url("images/jerigoooole.png") no-repeat center;
+    background-size: cover;
+    filter: opacity(80%);
+    border: 0.2rem solid #342E37;
+    width: 20%;
+    height: 25rem;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.Bloc3div11:hover{
+    background: url("images/jerigoooole.png") no-repeat center;
+    background-size: 110%;
+    filter: opacity(100%);
+    border: 0.2rem solid #342E37;
+    width: 20%;
+    height: 25rem;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }

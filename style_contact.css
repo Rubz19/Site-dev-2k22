@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+/* supprimer la marge tout autour des pages */
+
 *{
     margin: 0;
 }
 
+/* taille de tous les textes par défaut */
 :root{
     font-size: 0.625rem;
 }
@@ -27,6 +30,14 @@ header {
 #mentions {
     text-align: center;
     color: white;
+}
+
+/* Mise en surbrillance lien du menu pour la page contact ouverte */
+#ici{
+    color: #e9b44c;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.9rem;
 }
 
 /* Personnaliser les liens du menu */
@@ -70,18 +81,21 @@ a {
     max-height: 70%;
 }
 
+/* personnaliser le menu entier */
 .menu {
     display: flex;
     justify-content: space-between;
     max-height: 120px;
 }
 
+/* personnaliser la partie logo du menu */
 .menu1 {
     display: flex;
     max-width: 40%;
     align-items: center;
 }
 
+/* personnaliser la partie liens du menu */
 .menu2 {
     display: flex;
     max-width: 60%;
@@ -91,8 +105,27 @@ a {
 
 h1{
     text-align: center;
-    font-size: 34px;
+    font-size: 3.5rem;
     margin-top: 2%;
+}
+
+/* Personnaliser le container */
+.container_form {
+  border-radius: 5px;
+  background-color: #342E37;
+  padding: 20px;
+  margin-left : 15%;
+  margin-right : 15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+/* pour personnaliser les noms des input*/
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  color: white;
+  font-size: 1.6rem;
 }
 
 /* pour sélectionner les input de type texte, textarea et select*/
@@ -105,11 +138,10 @@ input[type=text], select, textarea{
   resize: vertical;
 }
 
-/* pour personnaliser les noms des input*/
-label {
-  padding: 12px 12px 12px 0;
-  display: inline-block;
-  color: white;
+/* Personnaliser bloc message dans le form */
+textarea {
+    height: 100px;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Personnaliser le bouton envoyer */
@@ -133,17 +165,6 @@ input[type=submit]:hover {
   float: right;
 }
 
-/* Personnaliser le container */
-.container_form {
-  border-radius: 5px;
-  background-color: #342E37;
-  padding: 20px;
-  margin-left : 15%;
-  margin-right : 15%;
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-
 /* Sélectionner la colonne des titres' */
 .col-25 {
   float: left;
@@ -153,12 +174,12 @@ input[type=submit]:hover {
 
 /* Sélectionner la colonne des inputs */
 .col-75 {
-  float: left;
+  float: right;
   width: 75%;
   margin-top: 6px;
 }
 
-/* Aligner les colonnes */
+/* Aligner les colonnes input et label */
 .row:after {
   content: "";
   display: table;
@@ -169,7 +190,6 @@ input[type=submit]:hover {
 .flex-container {
       display: flex;
       flex-wrap: wrap;
-      align-content: space-between;
       min-height: 200px;
       }
 
@@ -178,15 +198,12 @@ input[type=submit]:hover {
       width: 50%;
       min-height: 300px;
       padding: 10px 0;
-      margin: 0px;
       text-align: center;
-      font-size: 35px;
-      font: center;
+      font-size: 1rem;
       }
 
 /* Changer le fond du div de gauche */
 #bloc_img{
-    /*background-color: #6d96ba;*/
     background-image: url('images/GROUPE_ENTIER_1.jpg');
 }
 
@@ -201,24 +218,14 @@ input[type=submit]:hover {
     padding-top: 10%;
 }
 
-/* changer la taille et la position des pictos du bas */
-#picto-tel, #picto-mail{
-    max-height: 50px;
-    padding-top: 10%;
-}
-
 #bloc_txt2{
     background-color: #342E37;
 }
 
-.contact {
-    text-align: center;
-}
-
-/* Personnaliser bloc message dans le form */
-textarea {
-    height: 100px;
-    font-family: 'Poppins', sans-serif;
+/* changer la taille et la position des pictos du bas */
+#picto-tel, #picto-mail{
+    max-height: 50px;
+    padding-top: 10%;
 }
 
 #groupe1{
@@ -227,8 +234,7 @@ textarea {
 }
 
 p{
-    font-size: 20px;
-    padding-left: 10%;
+    font-size: 2rem;
     color : #FAFFFD;
 }
 /* Rendre responsive : à 600px
@@ -240,7 +246,7 @@ les titres passent au dessus des inputs */
 }
 
 /* Rendre responsive : à 600px
-réduire la largeur du div */
+les div se superposent */
 @media screen and (max-width: 600px) {
   #bloc_img {
     width: 100%;

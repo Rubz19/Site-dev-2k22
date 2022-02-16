@@ -30,6 +30,7 @@ header {
 #mentions {
     text-align: center;
     color: white;
+    font-size: 2rem;
 }
 
 /* Mise en surbrillance lien du menu pour la page contact ouverte */
